@@ -1,4 +1,9 @@
-﻿using System.Collections;
+﻿/*
+ * Levi Wyant
+ * Challenge 1
+ * Adds score when player passes trigger zone
+ */
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

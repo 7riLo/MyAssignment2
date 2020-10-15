@@ -1,4 +1,10 @@
-﻿using System.Collections;
+﻿/*
+ * Levi Wyant
+ * Challenge 1
+ * Player loses if they fall off course
+ */
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

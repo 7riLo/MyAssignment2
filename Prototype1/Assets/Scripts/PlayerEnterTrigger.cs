@@ -1,4 +1,10 @@
-﻿using System.Collections;
+﻿/*
+ * Levi Wyant
+ * Challenge 1
+ * Player passes trigger point
+ */
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

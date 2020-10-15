@@ -1,4 +1,10 @@
-﻿using System.Collections;
+﻿/*
+ * Levi Wyant
+ * Challenge 1
+ * adds controls to player object
+ */
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
