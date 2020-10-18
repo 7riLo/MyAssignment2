@@ -1,4 +1,10 @@
-﻿using System.Collections;
+﻿/*
+ * Levi Wyant
+ * Prototype 2
+ * controls for player objects
+ */
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

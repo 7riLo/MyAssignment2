@@ -1,4 +1,10 @@
-﻿using System.Collections;
+﻿/*
+ * Levi Wyant
+ * Prototype 2
+ * Display the score via text box script
+ */
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;

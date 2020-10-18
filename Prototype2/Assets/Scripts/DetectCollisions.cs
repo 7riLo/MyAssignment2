@@ -1,4 +1,11 @@
-﻿using System.Collections;
+﻿/*
+ * Levi Wyant
+ * Prototype 2
+ * helps display score when projectile collides with
+ * animal model
+ */
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

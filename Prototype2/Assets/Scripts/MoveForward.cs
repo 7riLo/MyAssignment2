@@ -1,4 +1,10 @@
-﻿using System.Collections;
+﻿/*
+ * Levi Wyant
+ * Prototype 2
+ * Allows 'npc' to be move forward automatically. 
+ */
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

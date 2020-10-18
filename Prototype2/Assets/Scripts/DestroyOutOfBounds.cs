@@ -1,4 +1,13 @@
-﻿using System.Collections;
+﻿/*
+ * Levi Wyant
+ * Prototype 2
+ * Make sure objects are deleted to save memory once 
+ * out of bounds.
+ */
+
+
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

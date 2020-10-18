@@ -1,4 +1,12 @@
-﻿//This script is based on https://www.youtube.com/watch?v=3uyolYVsiWc
+﻿/*
+ * Levi Wyant
+ * Prototype 2
+ * Display health sprites and change 
+ * them depending on the status of the health of the 
+ * player. This was provided via Canvas
+ */
+
+//This script is based on https://www.youtube.com/watch?v=3uyolYVsiWc
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
