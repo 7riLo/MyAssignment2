@@ -1,4 +1,10 @@
-﻿using System.Collections;
+﻿/*
+ * Levi Wyant   
+ * 3D Prototype
+ * Allows input to let player look around
+*/
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

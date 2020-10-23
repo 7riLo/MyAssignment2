@@ -1,4 +1,11 @@
-﻿using System.Collections;
+﻿/*
+ * Levi Wyant   
+ * 3D Prototype
+ * Allows players to use inputs to move player
+*/
+
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

@@ -1,4 +1,10 @@
-﻿using System.Collections;
+﻿/*
+ * Levi Wyant   
+ * 3D Prototype
+ * Allows players to "shoot" via raycasting
+*/
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
