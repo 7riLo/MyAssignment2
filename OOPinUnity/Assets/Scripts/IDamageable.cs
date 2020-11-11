@@ -1,4 +1,9 @@
-﻿using System.Collections;
+﻿/*
+ * Levi Wyant
+ * Assignment 6
+ */
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

@@ -1,4 +1,11 @@
-﻿using System.Collections;
+﻿/*
+ * Levi Wyant
+ * Assignment 6
+ * Enemy AI scripts
+ */
+
+
+using System.Collections;
 using System.Collections.Generic;
 using TMPro.EditorUtilities;
 using UnityEngine;

@@ -1,4 +1,12 @@
-﻿using UnityEngine;
+﻿/*
+ * Levi Wyant
+ * Assignment 6
+ * Inventroy sdriver script
+ */
+
+
+
+using UnityEngine;
 using System.Collections;
 using UnityEngine.Events;
 using System.Collections.Generic;

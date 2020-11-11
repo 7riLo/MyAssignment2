@@ -1,4 +1,11 @@
-﻿using Assets.Scripts;
+﻿/*
+ * Levi Wyant
+ * Assignment 6
+ * Overall game manager
+ */
+
+
+using Assets.Scripts;
 using System.Collections;
 using System.Collections.Generic;
 using System.Security.Cryptography;

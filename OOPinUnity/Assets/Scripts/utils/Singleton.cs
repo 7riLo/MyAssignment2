@@ -1,4 +1,9 @@
-﻿using UnityEngine;
+﻿/*
+ * Levi Wyant
+ * Assignment 6
+ */
+
+using UnityEngine;
 using System.Collections;
 
 namespace Assets.Scripts

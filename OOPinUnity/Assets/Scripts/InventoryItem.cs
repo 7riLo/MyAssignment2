@@ -1,4 +1,10 @@
-﻿using System.Collections;
+﻿/*
+ * Levi Wyant
+ * gives item information to inventory
+ */
+
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
