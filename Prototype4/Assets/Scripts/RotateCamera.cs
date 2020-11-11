@@ -1,4 +1,11 @@
-﻿using System.Collections;
+﻿/*
+ * Levi Wyant
+ * Prototype 4
+ * Move camera with A and D
+ */
+
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

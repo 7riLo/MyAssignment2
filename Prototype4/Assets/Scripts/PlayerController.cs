@@ -1,4 +1,11 @@
-﻿using System.Collections;
+﻿/*
+ * Levi Wyant
+ * Prototype 4
+ * Player Controller system
+ */
+
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -43,7 +50,12 @@ public class PlayerController : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if(other.CompareTag("Powerup"))
+        if (transform.position.y < -10)
+        {
+            Destroy(gameObject);
+            //update GameOverText and add R to restart
+        }
+        if (other.CompareTag("Powerup"))
         {
             hasPowerup = true;
             Destroy(other.gameObject);

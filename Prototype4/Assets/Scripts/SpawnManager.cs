@@ -1,4 +1,11 @@
-﻿using System.Collections;
+﻿/*
+ * Levi Wyant
+ * Prototype 4
+ * Spawns enemy and updates wave
+ */
+
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -9,6 +16,7 @@ public class SpawnManager : MonoBehaviour
     public GameObject powerupPrefab;
     public int enemyCount;
     public int waveNumber = 1;
+    private DisplayWave displayWaveScript;
 
     private float spawnRange = 9;
     // Start is called before the first frame update
@@ -18,7 +26,10 @@ public class SpawnManager : MonoBehaviour
         //instantiate the enemy in the random pos
 
         SpawnEnemyWave(waveNumber);
+       
         SpawnPowerup(1);
+        displayWaveScript = GameObject.FindGameObjectWithTag("DisplayWaveText").GetComponent<DisplayWave>();
+      
 
     }
 
@@ -50,12 +61,11 @@ public class SpawnManager : MonoBehaviour
     void Update()
     {
         enemyCount = GameObject.FindGameObjectsWithTag("Enemy").Length;
-
+        displayWaveScript.NextWave(waveNumber);
         if (enemyCount == 0)
         {
             waveNumber++;
             SpawnEnemyWave(waveNumber);
-
             SpawnPowerup(1);
         }
     }

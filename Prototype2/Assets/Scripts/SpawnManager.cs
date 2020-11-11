@@ -32,6 +32,8 @@ public class SpawnManager : MonoBehaviour
         //InvokeRepeating("SpawnRandomPrefab", 2, 1.5f);
         StartCoroutine(SpawnRandomPrefabWithCoroutine());
 
+
+
     }
 
     IEnumerator SpawnRandomPrefabWithCoroutine()

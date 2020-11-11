@@ -8,6 +8,7 @@ TagManager:
   - Enemy
   - SpawnManager
   - Powerup
+  - DisplayWaveText
   layers:
   - Default
   - TransparentFX
